@@ -1,0 +1,19 @@
+0.  PNG supports 281 trillion colors, JPEG supports 16 million, BMP supports 16 million, and GIF supports 256
+1.  The GIF file format supports animation via a sequence of static images
+2.  Lossless compressions works by breaking files into smaller pieces for storage, allowing users to put the file back together when it needs to be used again. Lossy compressions, in contrast, works by eliminating unnecessary bits of the file in order to reduce its size. As a result, you can't access the original file; you can only access the compressed version.
+3.  The BMP file format is lossy-compressed
+4.  First, the computer modifies the first character in the file's directory to indicate the the file has been deleted and that the address can be recycled. Second, the computer moves all of the file's FAT clusters to the hard drive's list of free clusters. The actual file data, however, remains intact.
+5.  Dispose of the hard drive or overwrite the data one to two times.
+6.  stdint.h is a header that declares sets of int types having specified widths (number of bits used to store its value), and shall define corresponding sets of macros. These corresponding macros specify limits of the declared types and construct suitable constants.dsc
+7.  To specify the width (number of bits) of signed and unsigned int types
+8.  8, 32, 32, 16
+9.  In ASCII, the first two bytes are the character 'B' and 'M'
+10. bfSize describes the entire file's size in bytes. biSize is just the size of the BITMAPINFOHEADER struct in bytes
+11. It means that the vertical orientation of the image is top-down
+12. biBitCount
+13. If there is no output file to point to
+14. So that it reads 1 byte at a time
+15. Because the size of each scanline must be a multiple of 4
+16. Moves to a specified location (start, current, or end) in the file to seek from
+17. Seeks from currnet location
+18. Fozzie Bear
